@@ -1,13 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 
-import Pocetna from './Pocetna';
-import Navbar from './Navbar';
-import Proteini from './Proteini';
-import Kontakt from './Kontakt';
-import Footer from './Footer';
+import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import { useState } from 'react';
+
+import Pocetna from './components/Pocetna';
+import Navbar from './components/Navbar';
+import Proteini from './components/Proteini';
+import Kontakt from './components/Kontakt';
+import Footer from './components/Footer';
 
 function App() {
 
