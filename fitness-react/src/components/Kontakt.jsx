@@ -7,6 +7,8 @@ function Kontakt() {
 
     return (
         <div className="container">
+            <h2>Leave a message for the owner of this shop:</h2>
+            <br></br>
             <form onSubmit={handleSend}>
                 <label htmlFor="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name.." />
